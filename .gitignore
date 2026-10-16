@@ -1,0 +1,28 @@
+# Virtual Environment (Never push venv to GitHub)
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables & secrets (API keys, passwords, credentials)
+.env
+.env.*
+secrets.toml
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code local workspace settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+models/*.pkl
